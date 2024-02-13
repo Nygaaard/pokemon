@@ -1,0 +1,25 @@
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 0.5rem;
+  padding: 0.2rem 0.2rem;
+  border-radius: 90px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(rgb(245, 243, 243), rgb(238, 139, 139));
+}
+ul {
+  display: flex;
+  list-style: none;
+  li {
+    padding: 1rem;
+    a {
+      font-size: 1.5em;
+      color: #000;
+      text-decoration: none;
+    }
+  }
+}
