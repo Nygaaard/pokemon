@@ -1,0 +1,43 @@
+@keyframes translatePika {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(100px, 10px);
+  }
+}
+
+@keyframes rotatePika {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateX(180deg);
+  }
+}
+
+@keyframes translatePika {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-100px, 20px);
+  }
+}
+
+@keyframes scalePika {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.05, 1.05);
+  }
+}
+@keyframes colorTransition {
+  from {
+    background-color: #f3c8c8;
+  }
+  to {
+    background-color: #f1e5e5;
+  }
+}

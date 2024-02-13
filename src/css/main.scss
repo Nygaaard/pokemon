@@ -1,3 +1,7 @@
 @use "./layout/header.scss";
 @use "./layout/body.scss";
 @use "./layout/index.scss";
+@use "./layout/pokemons.scss";
+
+@use "./abstracts/keyframes";
+@use "./abstracts/mixins";

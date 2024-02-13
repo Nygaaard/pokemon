@@ -1,5 +1,12 @@
+@use "../abstracts/keyframes";
+
 .pika-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.pika:hover {
+  //   animation: translatePika 3s infinite alternate;
+  animation: rotatePika 0.4s infinite alternate;
+  animation-delay: 0.2s;
 }
