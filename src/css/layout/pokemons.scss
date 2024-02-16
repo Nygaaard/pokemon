@@ -27,14 +27,28 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 3rem;
+  flex-wrap: wrap;
 }
 .poke-div {
   width: 300px;
-  height: 300px;
+  height: 400px;
   background-color: #f3c8c8;
   margin: 0.5rem 0.5rem;
   border-radius: 5px;
   box-shadow: 2px 1px 1px rgb(238, 107, 107);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-top: 0.5rem;
+    font-size: 1.7rem;
+  }
+  p {
+    font-size: 1.3rem;
+  }
+}
+.poke-pic {
+  animation: rotatePoke 1s infinite alternate;
 }
 .poke-div:hover {
   animation: scalePika 1s forwards, colorTransition 2s forwards;
